@@ -52,6 +52,7 @@ public:
 				return;
 			}
 		}
+
 		m_observers.insert(std::make_pair(priority, &observer));
 	}
 
